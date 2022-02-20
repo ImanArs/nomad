@@ -1,0 +1,1 @@
+axios, aos, react-animations, react-router-dom, react-scroll, react-spring, sass

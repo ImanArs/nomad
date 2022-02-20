@@ -1,0 +1,119 @@
+
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  opacity: 1;
+  animation: header 500ms ease-in-out 0s normal none 1 running  !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #000;
+  .header{
+    width: 100%;
+    background:  #D8E1E9 !important;
+    color: #000;
+    animation: header .3s ease-in-out fadeInDown ; 
+    a{
+      color: #000 !important;
+    }
+    .span {
+      display: block !important ;
+      a{
+        color: #000 !important;
+      }
+    }
+    
+  }
+  
+}
+
+
+@keyframes header {
+  0%{
+    top: -100px;
+    // opacity: 0;
+  }
+  
+  100%{
+      top: 0px;
+      // opacity: 0;
+  }
+  
+}
+
+.header {
+  width: 100%;
+  z-index: 3;
+  // opacity: 1;
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+  animation: header .3s ease-in-out;
+  height: 90px;
+  width: 1349px;
+
+  
+  .header_content {
+    display: flex;
+    align-items: center;
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    
+    padding: 26px 0;
+    ul {
+      display: flex;
+      text-decoration: none;
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+      
+      
+        li, a {
+          text-decoration: none;
+          margin-right: 30px;
+          font-size: 14px;
+          letter-spacing: 0.3em;
+          list-style: none;
+          text-transform: uppercase;
+          border: none;
+          cursor: pointer;
+          transition: .2s ease-in-out;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+        :hover {
+          color: rgb(212, 196, 130);
+        }
+      }
+      .logo {
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      span {
+        font-size: 36px;
+        text-transform: uppercase;
+        top: 10px;
+        cursor: pointer;
+        margin-left: 80px;  
+        text-decoration: none;
+        list-style: none;  
+        // display: none;
+        a{
+          color: #000;
+          text-decoration: none;
+          list-style: none;
+          // color: #000;
+        }    
+      }
+    }
+    
+  }

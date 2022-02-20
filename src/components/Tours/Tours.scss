@@ -1,0 +1,48 @@
+.tours{
+
+    
+
+    .tour{
+        
+
+        h2{
+            text-align: center;
+            width: 500px;
+            margin: 0 auto;
+            font-weight: 100;
+            // font-size: 36px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            
+        }
+    }
+    
+}
+
+.grid {
+    
+    display: grid;
+        justify-content: center;
+        padding: 20px 0 ;
+        grid-template-columns: 420px 420px 420px ;
+        grid-gap: 1em;
+        text-align: center;
+        align-items: center;
+        img {
+            height: 250px;
+            padding: 10px;
+        }
+
+        p {
+            text-align: center;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+}
+// .h300{
+//     height: 300px;
+//     align-items: center;
+// }

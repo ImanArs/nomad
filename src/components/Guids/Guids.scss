@@ -1,0 +1,85 @@
+.content {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    span {
+      text-transform: uppercase;
+      display: flex;
+      letter-spacing: 0.3em;
+      justify-content: center;
+      margin: 50px 0;
+      font-size: 28px;
+    }
+    .guid-l {
+      display: flex;
+      margin-bottom: 50px;
+      .guid-l-info {
+        margin: auto 0;
+        margin-left: 40px;
+      }
+      .guid-l-name {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        
+        &::after {
+          content: '';
+          display: block;
+          width: 280px;
+          height: 2px;
+          margin-left: 18px;
+          background: #000;
+        }
+      }
+      p {
+        font-size: 22px;
+        line-height: 33px;
+      }
+    }
+    .guid-r {
+      display: flex;
+      margin-bottom: 50px;
+      .guid-r-info {
+        margin: auto 0;
+        margin-right: 40px;
+      }
+      .guid-r-name {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        &::before {
+          content: '';
+          display: block;
+          width: 280px;
+          height: 2px;
+          margin-right: 18px;
+          background: #000;
+        }
+      }
+      p {
+        font-size: 22px;
+        line-height: 33px;
+        text-align: right;
+      }
+    }
+    .detail-1 {
+      position: absolute;
+      top: 700px;
+      left: 20px;
+    }
+    .detail-2 {
+      position: absolute;
+      top: 2500px;
+      right: 10px;
+    }
+    .detail-3 {
+      position: absolute;
+      top: 4350px;
+      left: 0;
+    }
+  }

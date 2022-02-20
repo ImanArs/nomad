@@ -1,0 +1,40 @@
+
+
+.footer {
+    // margin-top: ;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: space-around;
+    background: #D8E1E9;
+
+    .arrow svg {
+        fill: #D8E1E9;
+        
+        :hover  {
+            fill: rgb(158, 123, 123);
+        }
+    }
+
+    .social_net {
+        display: flex;
+        align-items: center;
+
+        
+        
+        .facebook svg{
+            transition: .3s ease-in-out;
+            :hover{
+                fill: #3261c7;
+            }
+        }
+        .youtube svg{
+            transition: .3s ease-in-out;
+            
+            :hover {
+                fill: red;
+
+            }
+        }
+    }
+}
