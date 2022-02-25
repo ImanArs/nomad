@@ -1,4 +1,5 @@
 import React from 'react'
+import Fx_Header from '../Fixed_Header/Header_Fx'
 
 import './Director.scss'
 
@@ -6,16 +7,18 @@ const Director = () => {
   
   
     return (
+          <>
+            <Fx_Header />
       
-          <div className='dir'>
+          <div className='contain' >
             <div className='container' >
   
               <div className='df' >
   
-                <div className='bg' >
-                  <img src="https://i.ibb.co/5Yxgjrf/mountain.png" alt="img_of_dir" />
-                </div>
-  
+                  <div className='bg' >
+                    <img src="https://i.ibb.co/5Yxgjrf/mountain.png" alt="img_of_dir" />
+                  </div>
+                
                 <div>
                   <h1>Director</h1>
                 </div>
@@ -52,6 +55,7 @@ const Director = () => {
   
             </div>
           </div>
+          </>
     )
   
 }

@@ -7,27 +7,48 @@
     align-items: center;
     justify-content: space-around;
     background: #D8E1E9;
+    max-width: 1440px;
 
+
+    h2{
+        text-transform: uppercase;
+    }
     .arrow svg {
-        fill: #D8E1E9;
+        // fill: #D8E1E9;
+        animation: myArrow 0.9s infinite;
+        cursor: pointer;
         
         :hover  {
-            fill: rgb(158, 123, 123);
+            fill: #3261c7;
+            // fill: rgb(158, 123, 123);
         }
     }
+
+
 
     .social_net {
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
+        width: 150px;
 
         
-        
+        .instagram svg{
+            width: 40px;
+            
+            &:hover {
+                fill:#3f729b;
+            }
+        }
         .facebook svg{
             transition: .3s ease-in-out;
-            :hover{
+            width: 40px;
+            
+            :hover {
                 fill: #3261c7;
             }
         }
+        
         .youtube svg{
             transition: .3s ease-in-out;
             
@@ -36,5 +57,17 @@
 
             }
         }
+    }
+}
+
+@keyframes myArrow {
+    0% {
+        transform: translateY(-5px);
+     }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
     }
 }

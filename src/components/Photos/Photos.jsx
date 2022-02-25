@@ -1,13 +1,23 @@
 import React from 'react'
+import Fx_Header from '../Fixed_Header/Header_Fx'
 
 import './Photos.scss'
 
 const Photos = () => {
   return (
     <>
-    <div className='galley'>
-      <p>galley</p>
-      <div>
+    <div>
+
+        <Fx_Header />
+    </div>
+    <div >
+    
+    
+
+        <div className='galley'>
+          <div>
+            <p>galley</p>
+
         <img className="img-r" src="https://i.ibb.co/987hP33/1.png" alt="img1" />
         <img src="https://i.ibb.co/0Yy3FMr/2.png" alt="img2" />
         <div className='d-flex img-t'>
@@ -47,6 +57,7 @@ const Photos = () => {
         <img className="img-r" src="https://i.ibb.co/Yjfn8Wr/21.png" alt="img21" />
         <img src="https://i.ibb.co/fvtpJKr/22.png" alt="img22" />
       </div>
+    </div>
     </div>
     </>
   )

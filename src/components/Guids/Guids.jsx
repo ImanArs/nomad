@@ -1,9 +1,17 @@
 import React from 'react'
 import './Guids.scss'
+import Fx_Header from '../Fixed_Header/Header_Fx';
+
 
 const Guids = () => {
   return (
-    <div className='content'>
+    <>
+    <div>
+
+      <Fx_Header />
+    </div>
+    
+    <div className='content' >
       <span>giuds</span>
       <div className='guid-l'>
         <img src="https://i.ibb.co/q7Lg2j2/1.png" alt="gid1" />
@@ -89,6 +97,7 @@ const Guids = () => {
       </svg>
 
     </div>
+    </>
   )
 }
 

@@ -1,5 +1,6 @@
-.tour {
+.tourPG {
     padding-top: 25vh;
+    height: 200vh;
     .container {
         justify-content: center;
         .df {
@@ -17,6 +18,9 @@
         p{
             // padding: 0;
             margin: 20vh 0;
+            // font-size: 17px;
+            font-weight: 600;
+            letter-spacing: .5px;
         }
         .text_container {
             margin: 0 auto;

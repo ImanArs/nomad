@@ -4,15 +4,17 @@ import axios from 'axios'
 import './Tours.scss'
 
 import Aos from 'aos';
+// import ToursJSON from '../../../'
 
 import {Link} from 'react-router-dom'
 import TourPage from './TourPage'
+import Fx_Header from '../Fixed_Header/Header_Fx';
+import Header from '../Header/Header';
 
 
 export default function Tours() {
     const [countries, setCountries] = useState([])
     const [value, setValue] = useState('')
-
 
 
     const getToursData = () => {
@@ -38,7 +40,7 @@ export default function Tours() {
 
     return (
         <div className='tours' >
-          <h2>tours</h2>
+          <Fx_Header />
           <div className='tour'>
 
                 <h2>lakes</h2>

@@ -46,7 +46,7 @@
 }
 
 .header {
-  width: 100%;
+  // width: 100%;
   z-index: 3;
   // opacity: 1;
   position: absolute;
@@ -54,7 +54,7 @@
   background: rgba(0, 0, 0, 0);
   animation: header .3s ease-in-out;
   height: 90px;
-  width: 1349px;
+  max-width: 1440px;
 
   
   .header_content {
@@ -105,13 +105,10 @@
         cursor: pointer;
         margin-left: 80px;  
         text-decoration: none;
-        list-style: none;  
-        // display: none;
         a{
-          color: #000;
+          color: rgba(0, 0, 0, 0);
           text-decoration: none;
           list-style: none;
-          // color: #000;
         }    
       }
     }

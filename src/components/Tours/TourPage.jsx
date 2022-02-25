@@ -1,6 +1,8 @@
 import React from 'react'
 
 import './TourPage.scss'
+import Fx_Header from '../Fixed_Header/Header_Fx';
+
 
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
@@ -17,7 +19,8 @@ const TourPage = () => {
   })
 
   return (
-    <div className='tour' >
+    <div className='tourPG'  >
+      <Fx_Header />
       {tour && (
         <>
           <div className='container' >

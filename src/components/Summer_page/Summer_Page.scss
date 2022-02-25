@@ -1,10 +1,21 @@
-.main {
-    background-image: url("https://i.ibb.co/L6PJwhX/snow-main.png");
+.main2 {
+    background-image: url('https://i.ibb.co/CMQ31s9/Summer-img.png');
     height: 116.2vh;
     overflow: hidden;
     background-size: cover;
+    position: relative;
     width: 1349px;
-    .choise  {
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.2);
+        z-index: 2;
+    }
+    .choise2  {
         display: flex;
         justify-content: center;
     }
@@ -19,6 +30,7 @@
         color: #fff;
         text-transform: uppercase;
         transition: .3s ease-in-out;
+        z-index: 5;
         &:hover {
             background-color: #fff;
             color: #000 !important ;
@@ -26,7 +38,7 @@
         &:hover a {
             color: #000;
         }
-        &:first-child{
+        &:last-child{
             background: #fff;
             color: #000;
         }
@@ -38,17 +50,16 @@
     
     
 }
-.second {
+.second2 {
     // height: 20vh;
-    .HR {
+    .HR2 {
         z-index: 0;
         position: relative;
         position: relative;
         display: flex;
         justify-content: center;
         img {
-            width: 1349px;
-            max-width: 1440px;
+            width: 100%;
         }
         p {
             margin: 0;
@@ -64,16 +75,16 @@
 
 
 
-.hb {
+.hb2 {
     // height: 200px;
+    
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
 }
 
-.tours {
+.tours2 {
 
-    
 
     
     h2{
@@ -84,15 +95,15 @@
         text-transform: uppercase;
         font-weight: 400;
     }
-    .tour_list{
+    .tour_list2{
         display: flex;
         justify-content: center;
 
-        .overlay__left {
+        .overlay__left2 {
             text-decoration: none;
             position: absolute;
             top: 100em;
-            left: -50px;
+            left: -85px;
             span{
                 color: #000;
             }
@@ -103,15 +114,11 @@
             }
         }
 
-        .left_images{
-            position: relative;
-        
-            img {
-                width: 450px;
-                padding: 20px 0;
-            }
+        .left_images2 img {
+            width: 450px;
+            padding: 20px 0;
         }
-        .right_images {
+        .right_images2 {
             height: 750px;
             width: 700px;
             display: grid;
@@ -119,6 +126,7 @@
             padding: 20px 0 ;
             grid-template-columns: 300px 300px;
             grid-gap: 0 10px ;
+            text-align: center;
             img {
                 width: 290px;
             }
@@ -132,10 +140,6 @@
                 :hover {
                     color: rgb(212, 196, 130);
                 }
-            }
-            :hover {
-                color: rgb(212, 196, 130);
-
             }
         }
     }
